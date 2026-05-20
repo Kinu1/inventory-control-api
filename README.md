@@ -112,7 +112,3 @@ npm run test:e2e
 - `GET /health` retornando API e banco como `ok`.
 - Swagger disponível em `/api/docs`.
 - Login demo validado com usuário `ADMIN`.
-
-## Diferenciais Técnicos
-
-Este projeto evita ser apenas um CRUD genérico: ele aplica autenticação, autorização por perfil, regra transacional de estoque, auditoria de movimentações, documentação interativa, ambiente Docker e validação automatizada. Esses pontos tornam o projeto mais próximo de um backend real usado em times de produto e operações.
