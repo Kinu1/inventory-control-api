@@ -1,0 +1,12 @@
+node_modules
+dist
+coverage
+.env
+.env.*
+!.env.example
+.DS_Store
+npm-debug.log
+*.log
+
+# Keep environment variables out of version control
+.env
